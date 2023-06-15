@@ -1,0 +1,14 @@
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'QuickSand', sans-serif;
+  margin: 20px 0 0 0;
+  color: black;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,42 @@
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 4px;
+  gap: 10px;
+  font-family: 'QuickSand', sans-serif;
+}
+
+.item {
+  border: 1px solid white;
+  align-items: center;
+  background-color: rgb(158, 220, 245);
+
+  color: black;
+  padding: 15px;
+  border-radius: 9px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.item:hover{
+    box-shadow: 0px 0px 12px 1px rgb(50, 67, 212);
+}
+
+.name {
+  margin: 0;
+  color: black;
+}
+
+.number {
+  margin: 0;
+  color: black;
+}
+
+.contDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

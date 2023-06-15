@@ -1,0 +1,30 @@
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  font-weight: 700;
+  flex-wrap: nowrap;
+  color: black;
+}
+.filtercont {
+  width: 100%;
+}
+
+p {
+  width: auto;
+}
+
+.inputFilter:focus-visible {
+  border-left: 0.5em solid grey;
+  border-radius: 5px;
+  transition: all 200ms ease;
+  padding: 0 6.48px;
+}
+.inputFilter:hover {
+  border: 1px solid gray;
+  transition: all 150ms ease;
+  cursor: text;
+  padding: 0 10px;
+}
